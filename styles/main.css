@@ -126,7 +126,7 @@ body {
 
 .container .left-section .info-tags-about-candidate .greetings-block .candidate-name {
     font-family: 'HelveticaNeueCyr';
-    font-size: calc(4.5vw + 4px);
+    font-size: calc(4.5vw + 3px);
     margin: 0px auto;
     position: relative;
     display: flex;
@@ -210,7 +210,7 @@ body {
 }
 
 .container .left-section .info-tags-about-candidate .languages-block .languages-details .language-block:first-child {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .container .left-section .info-tags-about-candidate .languages-block .languages-details .language-block:last-child {
