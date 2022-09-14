@@ -139,7 +139,7 @@ body {
  }
 
 .container .left-section .info-tags-about-candidate .greetings-block .candidate-name div:nth-child(2) {
-   margin-right: 3%;
+   margin-right: 2%;
 }
 
 .container .left-section .info-tags-about-candidate .greetings-block .yellow-block {
@@ -150,14 +150,18 @@ body {
  }
 
  .container .left-section .info-tags-about-candidate .contacts-block {
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
  }
 
+.container .left-section .info-tags-about-candidate .contacts-block h2 {
+    margin: 10px;
+}
+
 .container .left-section .info-tags-about-candidate .contacts-block .details span {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     font-family: 'Montserrat';
 }
 
@@ -196,7 +200,7 @@ body {
     display: flex;
     margin: 50px auto;
     justify-content: center;
-    height: 180px;
+    height: 110px;
     position: relative;
 }
 
@@ -207,15 +211,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     position: relative;
-}
-
-.container .left-section .info-tags-about-candidate .languages-block .languages-details .language-block:first-child {
-    margin-right: 20px;
-}
-
-.container .left-section .info-tags-about-candidate .languages-block .languages-details .language-block:last-child {
-    position: absolute;
-    bottom: -32px;
 }
 
 .container .left-section .info-tags-about-candidate .languages-block .languages-details .language-block .language-name {
@@ -339,15 +334,19 @@ body {
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-
 footer {
-    height: 50px;
+    padding: 20px;
 }
+
+footer .github-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
 
 
 
